@@ -1,0 +1,172 @@
+*{
+				margin:0px;
+				
+}
+
+
+
+
+/* Navbar */
+
+				
+				ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+			 
+}
+.navbar li{
+			display:inline;
+				}
+.navbar h2{
+				color: white;
+}
+.navbar a{
+				display:inline-block;
+				color:#244F7F;
+				background:#96b4ad;	
+				
+				
+}
+.navbar a:hover{
+				color:red;
+}
+/* cp */
+
+
+/* main */
+body{
+				background: ;
+				
+}
+.main{
+				margin-bottom:100px;
+				padding-bottom:50px;
+}
+.sel img{
+				width: 100%;
+				margin-bottom:20px;
+}
+
+h3{
+				text-align:center;
+				color: #B04552;
+}
+.main p{
+				text-align:justify;
+				font-family: Times new roman, sans-serif,serif;
+				background: ;
+				margin:auto;
+				padding:50px;
+				
+				
+}
+/* galeri */
+
+.galeri{
+				margin-bottom:100px;
+				padding-bottom:50px;
+				text-align:justify;
+				
+}
+.galeri table h3{
+				font-size:30px;
+}
+.galeri h4{
+				margin:5px;
+				padding:5px;
+}
+.galeri a{
+				color: black;
+}
+
+.galeri a img{
+			
+				
+				padding:0px;
+				width: 100%;
+				
+				
+			background-color: ;
+}
+
+.galeri table {
+				display:inline-block;	
+				overflow:auto;			
+				background: ;
+				border-collapse: collapse;
+				border-spacing:0;
+}
+table .lain{
+				font-size:25px;
+				
+}
+table .lain a{
+				width: 100%;
+}
+
+.galeri a:hover{
+				color: red;
+}
+				
+				
+/* toko */
+.toko {
+				width: 100%;
+				margin-bottom:100px;
+				padding-bottom:50px;
+				text-align:center;
+				
+}
+
+
+.toko img{
+				width: 100px;		
+				margin:20px;
+}
+
+/* footer */
+.footer{
+				border-top:1px solid black;
+				font-size:12px;
+				text-align:left;
+				background: #171b2e;
+				color:#ffffff;
+				
+}
+.footer p {
+				text-align:center;
+				margin-top:100px;
+				
+}
+.hero{
+			background-image: url("Br.jpg");
+			width: 100px;
+			height: 100px;
+			border-radius:50%;
+			margin:5px;
+}
